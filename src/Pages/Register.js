@@ -6,6 +6,7 @@ const Register = () => {
     return (
         <>
             <div className="background">
+                <img src="/download 2.svg" alt="logo"/>
                 <div className="right-section">
                     <div className="auth-btn">
                         <button className="signup">SignUp</button>

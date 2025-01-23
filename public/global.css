@@ -1,3 +1,7 @@
+img{
+    margin: 30px;
+}
+
 .background {
     background-image: url('bg.png');
     background-size: cover;
@@ -18,7 +22,7 @@
 
 .auth-btn{
     text-align: right;
-    padding: 20px;
+    margin: 30px;
 }
 
 .signup{
