@@ -1,0 +1,96 @@
+.background {
+    background-image: url('bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.right-section {
+    background-color: white;
+    background-size: cover;
+    height: 100vh;
+    width: 50vw;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.auth-btn{
+    text-align: right;
+    padding: 20px;
+}
+
+.signup{
+    background-color: transparent;
+    margin-right: 20px;
+    padding: 8px 20px;
+    border: none;
+    color: black;
+}
+
+.login{
+    background-color: #1B48DA;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 24px;
+    /*padding: 8px 30px;*/
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 100px;
+
+}
+
+input:focus {
+    border-color: black;
+}
+
+.register-btn {
+    width: 107%;
+    padding: 12px;
+    background-color: #1B48DA;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.register-btn:hover {
+    background-color: #3638e0;
+}
+
+.login-text a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login-text a:hover {
+    text-decoration: underline;
+}
+
+p{
+    text-align: center;
+}
