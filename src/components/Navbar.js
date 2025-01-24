@@ -1,8 +1,31 @@
 import React from 'react'
+import { IoIosSearch } from "react-icons/io";
+
 
 const Navbar = () => {
     return (
-        <div>Navbar</div>
+        <>
+            <nav className="navbar">
+                <div className="navbar-left">
+                    <img src="/sun.png" alt="Sun" className="sun-icon"/>
+                    <span className="greeting">Good morning, Sarthak</span>
+
+                    <span className="date">Tue, Jan 25</span>
+                </div>
+
+                <div className="navbar-right">
+                    <button className="create-new-btn">
+                        <span>+</span>
+                        <span>Create new</span>
+                    </button>
+                    <div className="search-container">
+                        <IoIosSearch/>
+                        <input type="text" placeholder="Search by remarks" className="search-input"/>
+                    </div>
+                    <button className="account">SU</button>
+                </div>
+            </nav>
+        </>
     )
 }
 export default Navbar
