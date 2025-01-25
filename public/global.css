@@ -146,6 +146,7 @@ p{
 
 .navbar {
     display: flex;
+    height: max-content;
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
@@ -155,12 +156,23 @@ p{
 
 .navbar-left {
     display: flex;
-    align-items: center;
+    width: 30%;
+    column-gap: 2%;
+}
+
+.navbar-left > .top-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-left > .bottom-section {
+    display: flex;
+    flex-direction: column;
 }
 
 .sun-icon {
     height: 24px;
-    margin-right: 10px;
+    margin: 0;
 }
 
 .greeting {
@@ -222,4 +234,33 @@ p{
 }
 
 
+.dashboard {
+    display: flex;
+}
 
+.main-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.hero{
+    border: 1px solid black;
+    margin: 40px;
+}
+
+.tc{
+    /*border: 1px solid black;*/
+    display: inline-flex;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.date-click{
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.links{
+    display: flex;
+}

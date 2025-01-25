@@ -9,12 +9,12 @@ const Sidebar = () => {
             <div className="container">
                 <img className='dash-img' src="/download 2.svg" alt="logo"/>
                 <nav>
-                    <a href="/" className="sidebar-link">
+                    <a href="/dashboard" className="sidebar-link">
                         <RiHomeSmile2Line style={{marginRight: 5}}/>
                         <span>Dashboard</span>
                     </a>
 
-                    <a href="/" className="sidebar-link">
+                    <a href="/links" className="sidebar-link">
                         <RiLinksLine style={{marginRight: 5}}/>
                         <span>Links</span>
                     </a>

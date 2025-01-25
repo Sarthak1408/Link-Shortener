@@ -7,10 +7,14 @@ const Navbar = () => {
         <>
             <nav className="navbar">
                 <div className="navbar-left">
-                    <img src="/sun.png" alt="Sun" className="sun-icon"/>
-                    <span className="greeting">Good morning, Sarthak</span>
+                    <div className='top-section'>
+                        <img src="/sun.png" alt="Sun" className="sun-icon" />
+                    </div>
 
-                    <span className="date">Tue, Jan 25</span>
+                    <div className='bottom-section'>
+                        <span className="greeting">Good morning, Sarthak</span>
+                        <span className="date">Tue, Jan 25</span>
+                    </div>
                 </div>
 
                 <div className="navbar-right">
@@ -19,8 +23,8 @@ const Navbar = () => {
                         <span>Create new</span>
                     </button>
                     <div className="search-container">
-                        <IoIosSearch/>
-                        <input type="text" placeholder="Search by remarks" className="search-input"/>
+                        <IoIosSearch />
+                        <input type="text" placeholder="Search by remarks" className="search-input" />
                     </div>
                     <button className="account">SU</button>
                 </div>
