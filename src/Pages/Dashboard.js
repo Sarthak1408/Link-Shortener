@@ -7,6 +7,7 @@ const Dashboard = () => {
         <>
             <Navbar/>
             <Sidebar/>
+            <div>Hello World</div>
         </>
     )
 }
