@@ -19,14 +19,14 @@ const Sidebar = () => {
                         <span>Links</span>
                     </a>
 
-                    <a href="/" className="sidebar-link">
+                    <a href="/analytics" className="sidebar-link">
                         <IoMdTrendingUp style={{marginRight: 5}}/>
                         <span>Analytics</span>
                     </a>
 
 
                     <div className="setting">
-                        <a href="/" className="sidebar-link">
+                        <a href="/settings" className="sidebar-link">
                             <RiSettings4Line style={{marginRight: 5}}/>
                             <span>Settings</span>
                         </a>
